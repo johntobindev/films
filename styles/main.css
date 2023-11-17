@@ -35,7 +35,7 @@
 .films-inner {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   margin: calc(var(--margin) * -1);
 }
@@ -48,6 +48,8 @@
   border-radius: 5px;
   overflow: hidden;
   transition: all ease 125ms;
+  display: flex;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 750px) {
@@ -143,12 +145,13 @@
 
 .film-deck {
   line-height: 1.6;
-  margin: 1em 1rem;
+  margin: auto 1rem;
   font-size: 0.85em;
+  padding: 1em 0;
 }
 
 .film-footer {
-  margin: 1rem 0.5rem;
+  margin: 0 0.5rem 1rem;
   font-size: 0.8em;
   color: #999;
   display: flex;

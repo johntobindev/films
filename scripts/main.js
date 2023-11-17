@@ -8,6 +8,15 @@ const films = [{
   genre: 'Comedy, Horror',
   runtime: '1h 43m',
 }, {
+  poster: 'the-cranes-are-flying',
+  title: 'The Cranes Are Flying',
+  director: 'Mikhail Kalatozov',
+  year: 1957,
+  deck: 'Veronika and Boris come together in Moscow shortly before World War II. Walking along the river, they watch cranes fly overhead, and promise to rendezvous before Boris leaves to fight. Boris misses the meeting and is off to the front lines, while Veronika waits patiently, sending letters faithfully.',
+  language: 'Russian',
+  genre: 'Drama, Romance, War',
+  runtime: '1h 37m',
+}, {
   poster: 'the-shining',
   title: 'The Shining',
   director: 'Stanley Kubrick',
@@ -16,6 +25,15 @@ const films = [{
   language: 'English',
   genre: 'Horror, Thriller',
   runtime: '2h 24m',
+}, {
+  poster: 'an-autumn-afternoon',
+  title: 'An Autumn Afternoon',
+  director: 'Yasujiro Ozu',
+  year: 1962,
+  deck: 'Shuhei Hirayama is a widower with a 24-year-old daughter. Gradually, he comes to realize that she should not be obliged to look after him for the rest of his life, so he arranges a marriage for her.',
+  language: 'Japanese',
+  genre: 'Drama',
+  runtime: '1h 54m',
 }, {
   poster: 'la-haine',
   title: 'La Haine',
